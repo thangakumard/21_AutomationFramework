@@ -2,5 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.thanga</groupId>
   <artifactId>21_AutomationFramework</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>automationFramework</module>
+      <module>sample</module>
+      <module>UIAutomationFramework</module>
+    </modules>
 </project>
