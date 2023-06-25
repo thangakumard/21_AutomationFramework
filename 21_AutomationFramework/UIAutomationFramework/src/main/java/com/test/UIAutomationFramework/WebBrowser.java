@@ -113,7 +113,7 @@ public class WebBrowser {
     /// <summary>
     /// Returns the current url
     /// </summary>
-    public String getUrl() {
+    public String getCurrentUrl() {
         return getDriver().getCurrentUrl();
     }
 
@@ -353,7 +353,7 @@ private static void KillProcess(String name) {
     /// <summary>
     /// Deletes all cookies from browser cache
     /// </summary>
-    public void DeleteCookies()
+    public void DeleteAllCookies()
     {
         getDriver().manage().deleteAllCookies();
     }
